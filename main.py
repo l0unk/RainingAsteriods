@@ -167,7 +167,11 @@ class Player(object):
         if keys[pygame.K_RETURN] and self.powerup >= 100:
             powerups.append(Powerup(self.x, self.y))
             self.powerup = 0
-
+        if self.x < 0:
+            self.x = 0
+        
+        if self.x > WIDTH - self.width:
+            self.x = WIDTH - self.width
         #gravity
         if self.y < GROUND:
             self.falling = True
