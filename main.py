@@ -277,9 +277,9 @@ while run:
         clock = pygame.time.Clock()
         clock.tick(60)
         
-        label = mainfont.render(f"Neppe tetris", 1, (255, 255, 255))
-        label1 = smallfont.render(f"Druk op een toets om te beginnen", 1, (255, 255, 255))
-        label2 = smallfont.render(f"'A' en 'D' om te bewegen, Spatie om te springen en Enter voor een powerup", 1, (255, 255, 255))
+        label = mainfont.render(f"Falling Asteroids", 1, (255, 255, 255))
+        label1 = smallfont.render(f"Press any key to start", 1, (255, 255, 255))
+        label2 = smallfont.render(f"'A' and 'D' to move, Space to jump, Return for powerup", 1, (255, 255, 255))
 
         window.blit(label,((WIDTH / 2) - (label.get_width() / 2), (HEIGHT / 2) - (label.get_height() / 2) -30))
         window.blit(label1,((WIDTH / 2) - (label1.get_width() / 2), (HEIGHT / 2) - (label1.get_height() / 2)))
