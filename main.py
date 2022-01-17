@@ -7,8 +7,8 @@ meteorites = []
 hearts = []
 powerups = []
 pygame.font.init()
-mainfont = pygame.font.Font("/usr/share/fonts/adobe-source-code-pro/SourceCodePro-Regular.otf", 25)
-smallfont = pygame.font.Font("/usr/share/fonts/adobe-source-code-pro/SourceCodePro-Regular.otf", 22)
+mainfont = pygame.font.Font("assets/fonts/SourceCodePro.otf", 25)
+smallfont = pygame.font.Font("assets/fonts/SourceCodePro.otf", 22)
 
 class Timer(object):
     def __init__(self, time):
